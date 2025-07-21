@@ -3,29 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the philosophical concepts of Teleology, Recursion, and Sonata through an animated diagram.">
+  <meta name="keywords" content="teleology, recursion, sonata, philosophy, animation">
   <title>Teleology → Recursion → Sonata</title>
   <style>
     body {
       background-color: #111;
       color: #eee;
-      font-family: monospace;
+      font-family: 'Courier New', Courier, monospace;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      min-height: 100vh; /* Changed from height to min-height */
       margin: 0;
+      overflow-y: auto; /* Handle overflow on small screens */
     }
 
     h1 {
       font-size: 1.2rem;
       letter-spacing: 0.1em;
       margin-bottom: 1rem;
-      color: #ccc;
+      color: #ddd; /* Slightly lighter for better contrast */
+      text-align: center;
     }
 
     a.sonata-link {
-      color: #ccc;
+      color: #ddd;
       text-decoration: none;
       cursor: pointer;
     }
@@ -43,18 +47,19 @@
 
     footer {
       margin-top: 2rem;
-      font-size: 0.7rem;
-      color: #666;
+      font-size: 0.85rem; /* Increased for readability */
+      color: #777; /* Slightly lighter for contrast */
     }
   </style>
 </head>
 <body>
   <h1>
-    → Teleology →
-    <a href="https://abikesa.github.io/buddhism/" class="sonata-link">Recursion</a> →
-    <a href="https://ukb-pyro.github.io/inf/" class="sonata-link">Sonata</a> →
+    <span aria-hidden="true">→</span> Teleology →
+    <a href="https://claude.ai/public/artifacts/4ec0a53e-03b8-4462-ab92-ac9c9b65e162" class="sonata-link" target="_blank" rel="noopener noreferrer">Teleology</a> →
+    <a href="https://abikesa.github.io/buddhism/" class="sonata-link" target="_blank" rel="noopener noreferrer">Recursion</a> →
+    <a href="https://ukb-pyro.github.io/inf/" class="sonata-link" target="_blank" rel="noopener noreferrer">Sonata</a> →
   </h1>
-  <img src="ethos/trs.gif" alt="Animated philosophical concept diagram">
-  <footer>© Ukubona LLC</footer>
+  <img src="ethos/trs.gif" alt="Animated diagram illustrating the philosophical concepts of Teleology, Recursion, and Sonata" onerror="this.src='https://via.placeholder.com/400x300?text=Image+Not+Found';">
+  <footer>© 2025 Ukubona LLC</footer>
 </body>
 </html>
